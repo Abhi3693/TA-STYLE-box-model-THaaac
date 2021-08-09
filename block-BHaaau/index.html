@@ -13,3 +13,58 @@
 - Using CSS resets is necessary.
 - Use semantic tags and keep the nesting and indentation proper.
 --->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>The box model assignment-3</title>
+        <link rel="stylesheet" href="assets/stylesheet/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>The Box Model, box sizing and box shadow</h1>
+        </header>
+        <hr>
+        <main>
+            <section>
+                <h2>Exercise-1</h2>
+                <div class="box"></div>
+                <div class="circle content"></div>
+                <p class="inline-block">Content</p>
+                <div class="circle padding"></div>
+                <p class="inline-block">Padding</p>
+                <div class="circle border"></div>
+                <p class="inline-block">Border</p>
+                <div class="circle margin"></div>
+                <p class="inline-block">Margin</p>
+            </section>
+            <hr>
+            <section>
+                <h2>Exercise-2</h2>
+                <p>no border on those boxes.</p>
+                <div class="bigbox">
+                    <div class="small"></div>
+                    <div class="small"></div>
+                    <div class="small"></div>
+                </div>
+            </section>
+            <hr>
+            <section>
+                <p>1px border on this box</p>
+                <div class="bigbox-two">
+                    <div class="small inline"></div>
+                    <div class="small inline"></div>
+                    <div class="small blockbox"></div>
+                </div>
+            </section>
+            <section>
+                <p>1px border on these boxes but they are in one line</p>
+                <div class="bigbox">
+                    <div class="small last"></div>
+                    <div class="small last"></div>
+                    <div class="small last"></div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
