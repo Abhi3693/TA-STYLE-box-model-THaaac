@@ -58,7 +58,7 @@ h2 {
     margin: 20px 0;
 }
 .box {
-    width: 200px;
+    width: 180px;
     height: 200px;
     background-color: skyblue;
     outline: 10px solid black;
@@ -76,7 +76,7 @@ h2 {
 }
 .content {
     background-color: palegreen ;
-    margin-left: 650px;
+ 
 }
 .padding {
     background-color: skyblue;
@@ -89,28 +89,28 @@ h2 {
 }
 .inline-block {
     display: inline-block;
-    margin: 10px;
+    margin: 5px;
 }
 .small {
-    width: 200px;
+    width: 180px;
     height: 100px;
     display: inline-block;
     background-color: lightgray;
-    margin: 10px;
+    margin: 5px;
 
 }
 .bigbox {
     border: 2px solid gray;
-    width: 680px;
+    width: 600px;
     height: 120px;
-    padding: 20px;
+    padding: 5px;
     margin: 20px auto;
 }
 .bigbox-two {
     height: 240;
     border: 2px solid gray;
-    width: 680px;
-    padding: 20px;
+    width: 600px;
+    padding: 5px;
     margin: 20px auto;
 }
 p {
@@ -130,5 +130,10 @@ p {
 hr {
     width: 1000px;
     border-top: 2px dotted black;
-
+}
+.text {
+    text-align: center;
+}
+.three {
+    border: 1px solid gray;
 }
