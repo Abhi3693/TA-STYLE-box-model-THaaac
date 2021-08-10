@@ -46,15 +46,24 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+/* custom styls */
+body {
+    font-size: 20px;
+    color: white;
+
+    text-decoration: none;
+}
 /*header*/
-header{
+.header{
     background-color: navy;
+    text-align: center;
+    padding: 20px;
 }
 h1 {
-    font-size: 48px;
-    text-align: center;
-    margin: 20px 0;
-    color: white;
+    font-size: 36px;
+    padding: 20px;
 }
 /*main*/
 h2 {
@@ -68,48 +77,35 @@ h3 {
     padding: 20px 0;
     color: white;
 }
-.manga {
+.hero {
+    background-color: navy;
+}
+.hero-2 {
     background-color: lightsteelblue;
 }
-.arcu {
+.hero-3 {
     background-color: lightskyblue;
 }
-.feguit {
+.hero-4 {
     background-color: cornflowerblue;
 }
 hr {
-    width: 1200px;
     background-color: white;
     margin: 20px auto
-}
-p {
-    font-size: 20px;
-    color: white;
-    padding: 20px 0;
-}
-.inline-block {
-    display: inline-block;
-}
-div {
-    text-align: center;
 }
 img {
     width: 300px;
     height: 300px;
     border-radius: 50%;
 }
-footer {
+.footer {
     background-color: navy;
     text-align: center;
-    padding: 50px;
-}
-.footer-text {
+    padding: 40px 0;
     color: white;
     display: inline-block;
     font-size: 20px;
-}
-.aliqt {
-    text-align: center;
+    display:block;
 }
 .common {
     width: 1200px;
@@ -118,6 +114,11 @@ footer {
 a {
     color: white;
     text-decoration: none;
-    font-size: 20px;
     padding: 20px;
+}
+p {
+    padding: 20px 0;
+}
+nav {
+    padding: 20px 0;
 }

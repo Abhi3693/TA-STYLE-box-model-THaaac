@@ -1,12 +1,3 @@
-<!---
-### Create a page according to the layout shown below
-
-![Box Model Exercise 7](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/box-model/ex-7.png)
-
-- Using CSS resets is necessary.
-- Use semantic tags and keep the nesting and indentation proper.
-
---->
 <!DOCTYPE html>
 <html>
     <head>
@@ -15,8 +6,8 @@
         <link rel="stylesheet" href="assets/stylesheet/style.css">
     </head>
     <body>
-        <header>
-            <h2>Solid state</h2>
+        <header class="header">
+            <h1>Solid state</h1>
             <div>
                 <nav>
                     <a href="#" target="_blank" >Home</a>
@@ -26,12 +17,17 @@
                     <a href="#" target="_blank" >Login</a>
                 </nav>
             </div>
-            <h1>This is solid state</h1>
-            <hr>
-            <p class="aliqt">Aliqt enim cep jesto according to the law this is not right thoing</p>
         </header>
         <main>
-            <section class="manga">
+            <section class="hero">
+                <article class="common">
+                    <h2>This is solid state</h2>
+                    <hr>
+                    <p class="aliqt">Aliqt enim cep jesto according to the law this is not right thoing
+                    </p>
+                </article>
+            </section>
+            <section class="hero-2">
                 <article class="common">
                     <h3>Manga Arcu feguit</h3>
                     <img src="assets/images/camera.jpeg" alt="camera image">
@@ -40,9 +36,12 @@
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam reprehenderit ipsum, beatae dolorem accusamus commodi, repudiandae voluptas velit repellat eligendi dicta assumenda omnis ad deleniti, iusto earum fugiat quo sunt.
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam 
                     </p>
+                    <nav>
+                        <a href="#" target="_blank">Learn more</a>
+                    </nav>
                 </article>
             </section>
-            <section class="arcu">
+            <section class="hero-3">
                 <article class="common">
                     <h3>Manga Arcu feguit</h3>
                     <img src="assets/images/camera2.jpeg" alt="camera image">
@@ -51,9 +50,12 @@
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam reprehenderit ipsum, beatae dolorem accusamus commodi, repudiandae voluptas velit repellat eligendi dicta assumenda omnis ad deleniti, iusto earum fugiat quo sunt.
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam 
                     </p>
+                    <nav>
+                        <a href="#" target="_blank">Learn more</a>
+                    </nav>
                 </article>
             </section>
-            <section class="feguit">
+            <section class="hero-4">
                 <article class="common">
                     <h3>Manga Arcu feguit</h3>
                     <img src="assets/images/camera3.jpeg" alt="camera image">
@@ -62,11 +64,14 @@
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam reprehenderit ipsum, beatae dolorem accusamus commodi, repudiandae voluptas velit repellat eligendi dicta assumenda omnis ad deleniti, iusto earum fugiat quo sunt.
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam 
                     </p>
-                </article>
+                    <nav>
+                        <a href="#" target="_blank">Learn more</a>
+                    </nav>
+                </article>                    
             </section>
-            <footer>
-                <small class="footer-text">&copy</small>
-                <span class="footer-text">All rights are reserved</span>
+            <footer class="footer">
+                <small>&copy</small>
+                <span>All rights are reserved</span>
             </footer>
         </main>
     </body>
