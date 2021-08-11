@@ -46,25 +46,41 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* custom style */
+body {
+    line-height: 1.5;
+    
+}
+hr {
+    width: 500px;
+    border-style: dashed;
+    margin: 30px auto;
+}
 /*header*/
 h1 {
-    font-size: 48px;
+    font-size: 64px;
+    padding: 32px 180px;
     text-align: center;
 }
 /*main*/
 h2 {
     font-size: 36px;
+    padding: 20px auto;
     text-align: center;
-    margin: 20px 0;
+
 }
 .box {
-    width: 180px;
+    width: 200px;
     height: 200px;
     background-color: skyblue;
     outline: 10px solid black;
     border: 20px solid lightsalmon;
-    margin: 50px auto;
     box-shadow: 0 0 0 20px orange;
+    margin: 20px auto;
+}
+.text {
+    text-align: center;
 }
 .circle {
     width: 30px;
@@ -72,68 +88,52 @@ h2 {
     border-radius: 50%;
     background-color: palegreen;
     display: inline-block;
-    
+    vertical-align: middle;
+    margin-left: 20px;
 }
-.content {
-    background-color: palegreen ;
- 
+.marker {
+    display: inline-block;
+    padding: 20px;
+    margin: 10px auto;
 }
-.padding {
+.circle-content {
+    background-color: palegreen ; 
+}
+.circle-padding {
     background-color: skyblue;
 }
-.border {
+.circle-border {
     background-color: black;
 }
-.margin {
+.circle-margin {
     background-color: lightsalmon;
 }
-.inline-block {
-    display: inline-block;
-    margin: 5px;
-}
-.small {
+.child-box {
     width: 180px;
     height: 100px;
     display: inline-block;
     background-color: lightgray;
-    margin: 5px;
-
+    margin: 10px;
 }
-.bigbox {
-    border: 2px solid gray;
+.container {
+    border: 1px solid gray;
     width: 600px;
-    height: 120px;
-    padding: 5px;
-    margin: 20px auto;
-}
-.bigbox-two {
-    height: 240;
-    border: 2px solid gray;
-    width: 600px;
-    padding: 5px;
-    margin: 20px auto;
+    margin: 0 auto;
+    font-size: 0;
 }
 p {
     text-align: center;
     font-size: 20px;
+    padding: 30px 0;
 }
-.blockbox {
-    display: block;
-    border: 2px solid gray;
-}
-.inline {
-    border: 2px solid gray;
-}
-.last {
-    border: 2px solid gray;
-}
-hr {
-    width: 1000px;
-    border-top: 2px dotted black;
-}
-.text {
-    text-align: center;
-}
-.three {
+.border-box {
+    box-sizing: border-box;
     border: 1px solid gray;
+}
+span {
+    display: inline-block;
+}
+.border {
+    border: 1px solid gray;
+    text-align: left;
 }
